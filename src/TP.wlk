@@ -47,7 +47,7 @@ object messich
 	
 	method puedeEnviarMensaje(mensaje)
 	{
-		return mensaje.get(0) != 'a'
+		return mensaje.take(1) !'a'
 	}
 	
 	method costeMensaje(mensaje)
